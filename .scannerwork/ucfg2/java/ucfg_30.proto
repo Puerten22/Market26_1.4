@@ -1,0 +1,191 @@
+
+jdataAccess.DataAccess#createDemand(Ljava/lang/String;Ljava/lang/String;FLjava/lang/String;)Ldomain/Demand;4
+(src\main\java\dataAccess\DataAccess.javaö ö("22*¢
+13
+¶ ¶($áÑ
+
+¶ ¶(L
+%6domain.Demand"Mdomain.Seller#addDemand(Ljava/lang/String;Ljava/lang/String;F)Ldomain/Demand;*7
+
+__unknown_file (
+
+claimantdomain.Seller*7
+
+__unknown_file (
+
+titlejava.lang.String*=
+
+__unknown_file (!
+
+descriptionjava.lang.String*/
+
+__unknown_file (
+
+maxPricefloat20addDemand(Ljava/lang/String;Ljava/lang/String;F)*
+12*&
+14
+¢ ¢("
+
+¢ ¢(
+""*s
+16
+° °(Y
+W
+
+° °(
+%5"__id*=
+
+__unknown_file (!*
+dataAccess.DataAccess"
+db*
+14*¯
+17
+ü ü(CS
+Q
+
+ü ü(C
+claimantdomain.Seller"__id*"
+
+__unknown_file (
+""
+}
+
+† †( 
+%4boolean"	__compare*
+
+† †(
+==*)
+
+† †(
+
+claimantdomain.Seller*
+
+† †( 
+""*
+13
+16*s
+18
+ü ü( Y
+W
+
+ü ü( 
+%3"__id*=
+
+__unknown_file (!*
+dataAccess.DataAccess"
+db*
+17*s
+19
+ù ù(
+Y
+W
+
+ù ù(
+
+%2"__id*=
+
+__unknown_file (!*
+dataAccess.DataAccess"
+db*
+18*8
+8
+∞ ∞("'
+
+∞ ∞(
+
+demanddomain.Demand*&
+20
+õ; õ(?"
+
+õ4 õ(@
+""*£
+21
+õ% õ(*
+}
+
+õ% õ(2
+%1boolean"	__compare*
+
+õ+ õ(-
+==*)
+
+õ% õ(*
+
+titlejava.lang.String*
+
+õ. õ(2
+""*
+19
+20*r
+10
+Ø Ø(Y
+W
+
+Ø Ø(
+%9"__id*=
+
+__unknown_file (!*
+dataAccess.DataAccess"
+db*
+8*≠
+22
+õ õ(à
+Ö
+
+õ õ(!
+%0boolean"	__compare*
+
+õ õ(
+==*1
+
+õ õ(#
+!
+claimantEmailjava.lang.String*
+
+õ õ(!
+""*
+20
+21*s
+11
+≠ ≠(Y
+W
+
+≠ ≠(
+%8"__id*=
+
+__unknown_file (!*
+dataAccess.DataAccess"
+db*
+10*’
+12
+¶ ¶(M`
+^
+
+¶ ¶(M
+demanddomain.Demand"__id*1
+
+__unknown_file (
+
+%6domain.DemandY
+W
+
+™ ™(
+%7"__id*=
+
+__unknown_file (!*
+dataAccess.DataAccess"
+db*
+11:'
+
+ö ö(,
+titlejava.lang.String:-
+
+ö- ö(@
+descriptionjava.lang.String:
+
+öA ö(P
+maxPricefloat:/
+
+öQ ö(e!
+claimantEmailjava.lang.StringB
+dataAccess.DataAccessH

@@ -1,0 +1,6 @@
+SONAR_TOKEN
+abd0c95758b31978e964c1096d61f0bf038d650d
+
+sonar-scanner.bat `
+  -D"sonar.organization=uerten22" `
+  -D"sonar.projectKey=Puerten22_market"

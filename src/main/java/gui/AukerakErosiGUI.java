@@ -39,6 +39,8 @@ public class AukerakErosiGUI extends JFrame {
 		appFacadeInterface=facade;
 	}
 
+	private static final String ETIQUETAS = "Etiquetas";
+	
 	protected JLabel jLabelSelectOption;
 	private JPanel panelHizkuntzak;
 	private final ButtonGroup buttonGroup = new ButtonGroup();
@@ -51,7 +53,7 @@ public class AukerakErosiGUI extends JFrame {
 		this.getContentPane().setLayout(null);
 		this.getContentPane().setBackground(Color.WHITE);
 
-		jLabelSelectOption = new JLabel(ResourceBundle.getBundle("Etiquetas").getString("MainGUI.SelectOption"));
+		jLabelSelectOption = new JLabel(ResourceBundle.getBundle(ETIQUETAS).getString("MainGUI.SelectOption"));
 		jLabelSelectOption.setFont(new Font("Tahoma", Font.BOLD, 20));
 		jLabelSelectOption.setForeground(Color.DARK_GRAY);
 		jLabelSelectOption.setHorizontalAlignment(SwingConstants.CENTER);
@@ -59,7 +61,7 @@ public class AukerakErosiGUI extends JFrame {
 		this.getContentPane().add(jLabelSelectOption);
 
 		// 1. ERREGISTRATU BOTOIA
-		btnErregistratu = new JButton(ResourceBundle.getBundle("Etiquetas").getString("AukerakIkusiGUI.RegisterButton")); //$NON-NLS-1$ //$NON-NLS-2$
+		btnErregistratu = new JButton(ResourceBundle.getBundle(ETIQUETAS).getString("AukerakIkusiGUI.RegisterButton")); //$NON-NLS-1$ //$NON-NLS-2$
 		btnErregistratu.setFont(new Font("Segoe UI", Font.BOLD, 14));
 		btnErregistratu.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
 		btnErregistratu.setForeground(Color.WHITE);
@@ -75,7 +77,7 @@ public class AukerakErosiGUI extends JFrame {
 		this.getContentPane().add(btnErregistratu);
 
 		// 2. SAIOA HASI BOTOIA
-		btnSaioaHasi = new JButton(ResourceBundle.getBundle("Etiquetas").getString("AukerakIkusiGUI.LoginButton")); //$NON-NLS-1$ //$NON-NLS-2$
+		btnSaioaHasi = new JButton(ResourceBundle.getBundle(ETIQUETAS).getString("AukerakIkusiGUI.LoginButton")); //$NON-NLS-1$ //$NON-NLS-2$
 		btnSaioaHasi.setFont(new Font("Segoe UI", Font.BOLD, 14));
 		btnSaioaHasi.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
 		btnSaioaHasi.setForeground(new Color(64, 224, 208));
@@ -92,7 +94,7 @@ public class AukerakErosiGUI extends JFrame {
 		this.getContentPane().add(btnSaioaHasi);
 
 		// 3. BISITARI MODUAN KONTSULTATU (Saioa hasi gabe)
-		btnBisitari = new JButton(ResourceBundle.getBundle("Etiquetas").getString("AukerakIkusiGUI.ContinueButton")); //$NON-NLS-1$ //$NON-NLS-2$
+		btnBisitari = new JButton(ResourceBundle.getBundle(ETIQUETAS).getString("AukerakIkusiGUI.ContinueButton")); //$NON-NLS-1$ //$NON-NLS-2$
 		btnBisitari.setFont(new Font("Segoe UI", Font.PLAIN, 13));
 		btnBisitari.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
 		btnBisitari.setForeground(Color.GRAY);
@@ -136,7 +138,7 @@ public class AukerakErosiGUI extends JFrame {
 		buttonGroup.add(rdbtnEn);
 		panelHizkuntzak.add(rdbtnEn);
 
-		this.setTitle(ResourceBundle.getBundle("Etiquetas").getString("MainGUI.MainTitle") + ": "+ResourceBundle.getBundle("Etiquetas").getString("Welcome"));
+		this.setTitle(ResourceBundle.getBundle(ETIQUETAS).getString("MainGUI.MainTitle") + ": "+ResourceBundle.getBundle(ETIQUETAS).getString("Welcome"));
 		
 		addWindowListener(new WindowAdapter() {
 			@Override
@@ -149,8 +151,8 @@ public class AukerakErosiGUI extends JFrame {
 	}
 	
 	private void paintAgain() {
-		jLabelSelectOption.setText(ResourceBundle.getBundle("Etiquetas").getString("MainGUI.SelectOption"));
-		this.setTitle(ResourceBundle.getBundle("Etiquetas").getString("MainGUI.MainTitle") + ": "+ResourceBundle.getBundle("Etiquetas").getString("Welcome"));
+		jLabelSelectOption.setText(ResourceBundle.getBundle(ETIQUETAS).getString("MainGUI.SelectOption"));
+		this.setTitle(ResourceBundle.getBundle(ETIQUETAS).getString("MainGUI.MainTitle") + ": "+ResourceBundle.getBundle(ETIQUETAS).getString("Welcome"));
 	}
 
 	public static void saioaIndarrezBerritu() {

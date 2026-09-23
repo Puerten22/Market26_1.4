@@ -136,7 +136,10 @@ public class CreateSaleGUI extends JFrame {
 		jLabelMsg.setForeground(Color.red);
 		
 		status=Utils.getStatus();
-		for(String s:status) statusOptions.addElement(s);
+		ArrayList<String> status = Utils.getStatus();
+		if (status != null) {
+			for(String s:status) statusOptions.addElement(s);
+		}
 
 		this.getContentPane().add(jLabelMsg, null);
 		this.getContentPane().add(jButtonClose, null);

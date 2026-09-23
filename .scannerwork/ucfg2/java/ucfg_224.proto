@@ -1,0 +1,138 @@
+
+RbusinessLogic.BLFacadeImplementation#erosketaBurutu(Ldomain/Seller;Ldomain/Sale;)ZC
+7src\main\java\businessLogic\BLFacadeImplementation.java∑ ∑("startingBlock*Ë
+startingBlock
+∑ ∑(>Ñ
+Å
+
+∂ ∂(
+%8"
+__annotate*)
+
+__unknown_file (
+	WebMethod*6
+
+__unknown_file (
+
+erosleadomain.SellerZ
+X
+
+∑& ∑(-
+erosleadomain.Seller"__annotation*"
+
+__unknown_file (
+
+%8Ñ
+Å
+
+∂ ∂(
+%9"
+__annotate*)
+
+__unknown_file (
+	WebMethod*6
+
+__unknown_file (
+
+	produktuadomain.SaleZ
+X
+
+∑4 ∑(=
+	produktuadomain.Sale"__annotation*"
+
+__unknown_file (
+
+%9*
+1*˙
+
+1
+∏ ∏(á
+Ñ
+
+∏ ∏(
+%0dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager|z
+
+∏ ∏(
+
+%1void"dataAccess.DataAccess#open()V*9
+
+__unknown_file (
+
+%0dataAccess.DataAccess2open()á
+Ñ
+
+∫ ∫(
+%2dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager°û
+
+∫& ∫(?
+%3java.lang.Integer".domain.Sale#getSaleNumber()Ljava/lang/Integer;*6
+
+__unknown_file (
+
+	produktuadomain.Sale2getSaleNumber()óî
+
+∫A ∫(S
+%4java.lang.String"*domain.Seller#getEmail()Ljava/lang/String;*6
+
+__unknown_file (
+
+erosleadomain.Seller2
+getEmail()ôñ
+
+∫ ∫(T
+%5boolean"3dataAccess.DataAccess#buySale(ILjava/lang/String;)Z*9
+
+__unknown_file (
+
+%2dataAccess.DataAccess*5
+
+__unknown_file (
+
+%3java.lang.Integer*4
+
+__unknown_file (
+
+%4java.lang.String2buySale(ILjava/lang/String;)R
+P
+
+∫ ∫(U
+ondoboolean"__id*+
+
+__unknown_file (
+
+%5booleaná
+Ñ
+
+ª ª(
+%6dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager~|
+
+ª ª(
+
+%7void"dataAccess.DataAccess#close()V*9
+
+__unknown_file (
+
+%6dataAccess.DataAccess2close()"
+
+º º(
+
+ondoboolean:&
+
+∑ ∑(.
+erosleadomain.Seller:&
+
+∑/ ∑(=
+	produktuadomain.SaleB(&
+$businessLogic.BLFacadeImplementationHX

@@ -1,0 +1,70 @@
+
+IdataAccess.DataAccess#getOffersForDemand(Ldomain/Demand;)Ljava/util/List;4
+(src\main\java\dataAccess\DataAccess.java× ×(("3*è
+2
+Ø Ø(3><
+
+Ø" Ø(1
+%1java.util.ArrayList"java.util.ArrayListl
+j
+
+Ø Ø(3
+%2"java.util.ArrayList#<init>()V*7
+
+__unknown_file (
+
+%1java.util.ArrayList")
+
+Ø Ø(4
+
+%1java.util.ArrayList*™
+3
+Ø Ø(x
+v
+
+Ø Ø(
+%0boolean"	__compare*
+
+Ø Ø(
+==*"
+
+Ø Ø(
+
+ddomain.Demand*
+
+Ø Ø(
+""*
+1
+2*ó
+1
+Ú! Ú(#Y
+W
+
+Ú! Ú(#
+%3"__id*=
+
+__unknown_file (!*
+dataAccess.DataAccess"
+dbM
+K
+
+Ú Û(Z
+query
+TypedQuery"__id*"
+
+__unknown_file (
+""¡ž
+
+Ü# Ü(6
+%4java.lang.Integer"2domain.Demand#getDemandNumber()Ljava/lang/Integer;*0
+
+__unknown_file (
+
+ddomain.Demand2getDemandNumber()"
+
+Ý Ý(%
+"": 
+
+×) ×(1
+ddomain.DemandB
+dataAccess.DataAccessH

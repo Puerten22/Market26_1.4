@@ -1,0 +1,108 @@
+
+IdataAccess.DataAccess#getReclamations(Ljava/lang/String;)Ljava/util/List;4
+(src\main\java\dataAccess\DataAccess.java¨! ¨(0"5*é
+2
+°
+ °(±®
+
+°
+ °((
+%5java.util.List":domain.Seller#getJasoatakoErreklamazioak()Ljava/util/List;*0
+
+__unknown_file (
+
+sdomain.Seller2getJasoatakoErreklamazioak()"$
+
+° °()
+
+%5java.util.List*Â
+3
+¬ ¬(Y
+W
+
+¬ ¬(
+%3"__id*=
+
+__unknown_file (!*
+dataAccess.DataAccess"
+dbL
+J
+
+¬ ¬(*
+sdomain.Seller"__id*"
+
+__unknown_file (
+""x
+v
+
+® ®(
+%4boolean"	__compare*
+
+® ®(
+
+!=*"
+
+® ®(
+
+sdomain.Seller*
+
+® ®(
+""*
+1
+2*è
+4
+© ©(?><
+
+©  ©(=
+%1java.util.ArrayList"java.util.ArrayListl
+j
+
+© ©(?
+%2"java.util.ArrayList#<init>()V*7
+
+__unknown_file (
+
+%1java.util.ArrayList")
+
+© ©(@
+
+%1java.util.ArrayList* 
+5
+© ©(
+}
+
+© ©(
+%0boolean"	__compare*
+
+© ©(
+==*)
+
+© ©(
+
+emailjava.lang.String*
+
+© ©(
+""*
+3
+4*è
+1
+³	 ³(,><
+
+³ ³(*
+%6java.util.ArrayList"java.util.ArrayListl
+j
+
+³	 ³(,
+%7"java.util.ArrayList#<init>()V*7
+
+__unknown_file (
+
+%6java.util.ArrayList")
+
+³ ³(-
+
+%6java.util.ArrayList:'
+
+¨1 ¨(=
+emailjava.lang.StringB
+dataAccess.DataAccessH

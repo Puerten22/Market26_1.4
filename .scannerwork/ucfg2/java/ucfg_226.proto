@@ -1,0 +1,157 @@
+
+^businessLogic.BLFacadeImplementation#createReclamation(ILjava/lang/String;Ljava/lang/String;)ZC
+7src\main\java\businessLogic\BLFacadeImplementation.javaË Ë($"startingBlock*×
+startingBlock
+Ë$ Ë(\|
+z
+
+Ê Ê(
+%6"
+__annotate*)
+
+__unknown_file (
+	WebMethod*/
+
+__unknown_file (
+
+
+saleNumberintS
+Q
+
+Ë) Ë(3
+
+saleNumberint"__annotation*"
+
+__unknown_file (
+
+%6Œ
+‰
+
+Ê Ê(
+%7"
+__annotate*)
+
+__unknown_file (
+	WebMethod*>
+
+__unknown_file ("
+ 
+deskribapenajava.lang.Stringb
+`
+
+Ë< Ë(H 
+deskribapenajava.lang.String"__annotation*"
+
+__unknown_file (
+
+%7Š
+‡
+
+Ê Ê(
+%8"
+__annotate*)
+
+__unknown_file (
+	WebMethod*<
+
+__unknown_file ( 
+
+
+buyerEmailjava.lang.String`
+^
+
+ËQ Ë([
+
+buyerEmailjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%8*
+1*´	
+1
+Í Í(‡
+„
+
+Í Í(
+%0dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager|z
+
+Í Í(
+
+%1void"dataAccess.DataAccess#open()V*9
+
+__unknown_file (
+
+%0dataAccess.DataAccess2open()‡
+„
+
+Ð Ð(
+%2dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager“
+
+Ð Ð(W
+%3boolean"OdataAccess.DataAccess#createReclamation(ILjava/lang/String;Ljava/lang/String;)Z*9
+
+__unknown_file (
+
+%2dataAccess.DataAccess*/
+
+__unknown_file (
+
+
+saleNumberint*>
+
+__unknown_file ("
+ 
+deskribapenajava.lang.String*<
+
+__unknown_file ( 
+
+
+buyerEmailjava.lang.String28createReclamation(ILjava/lang/String;Ljava/lang/String;)Q
+O
+
+Ð Ð(X
+resboolean"__id*+
+
+__unknown_file (
+
+%3boolean‡
+„
+
+Ó Ó(
+%4dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager~|
+
+Ó Ó(
+
+%5void"dataAccess.DataAccess#close()V*9
+
+__unknown_file (
+
+%4dataAccess.DataAccess2close()"
+
+Õ Õ(
+
+resboolean:
+
+Ë% Ë(4
+
+saleNumberint:.
+
+Ë5 Ë(I 
+deskribapenajava.lang.String:,
+
+ËJ Ë([
+
+buyerEmailjava.lang.StringB(&
+$businessLogic.BLFacadeImplementationHX

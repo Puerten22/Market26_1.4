@@ -1,0 +1,95 @@
+
+GbusinessLogic.BLFacadeImplementation#isBlacklisted(Ljava/lang/String;)ZC
+7src\main\java\businessLogic\BLFacadeImplementation.javaä ä( "startingBlock*á
+startingBlock
+ä  ä(.Ö
+Ç
+
+â â(
+%6"
+__annotate*)
+
+__unknown_file (
+	WebMethod*7
+
+__unknown_file (
+
+emailjava.lang.String[
+Y
+
+ä( ä(-
+emailjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%6*
+1*ê
+1
+ã ã(á
+Ñ
+
+ã ã(
+%0dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager|z
+
+ã ã(
+
+%1void"dataAccess.DataAccess#open()V*9
+
+__unknown_file (
+
+%0dataAccess.DataAccess2open()á
+Ñ
+
+å å(
+%2dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManagerÔÏ
+
+å å(4
+%3boolean"8dataAccess.DataAccess#isBlacklisted(Ljava/lang/String;)Z*9
+
+__unknown_file (
+
+%2dataAccess.DataAccess*7
+
+__unknown_file (
+
+emailjava.lang.String2!isBlacklisted(Ljava/lang/String;)Q
+O
+
+å å(5
+resboolean"__id*+
+
+__unknown_file (
+
+%3booleaná
+Ñ
+
+ç ç(
+%4dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager~|
+
+ç ç(
+
+%5void"dataAccess.DataAccess#close()V*9
+
+__unknown_file (
+
+%4dataAccess.DataAccess2close()"
+
+é é(
+
+resboolean:'
+
+ä! ä(-
+emailjava.lang.StringB(&
+$businessLogic.BLFacadeImplementationHX

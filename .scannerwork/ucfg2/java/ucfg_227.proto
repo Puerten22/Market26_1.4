@@ -1,0 +1,95 @@
+
+XbusinessLogic.BLFacadeImplementation#getReclamations(Ljava/lang/String;)Ljava/util/List;C
+7src\main\java\businessLogic\BLFacadeImplementation.javaÜ$ Ü(3"startingBlock*‡
+startingBlock
+Ü3 Ü(A…
+‚
+
+Û Û(
+%6"
+__annotate*)
+
+__unknown_file (
+	WebMethod*7
+
+__unknown_file (
+
+emailjava.lang.String[
+Y
+
+Ü; Ü(@
+emailjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%6*
+1*Ã
+1
+Ý Ý(‡
+„
+
+Ý Ý(
+%0dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager|z
+
+Ý Ý(
+
+%1void"dataAccess.DataAccess#open()V*9
+
+__unknown_file (
+
+%0dataAccess.DataAccess2open()‡
+„
+
+Þ) Þ(2
+%2dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager‰†
+
+Þ) Þ(I
+%3java.util.List"IdataAccess.DataAccess#getReclamations(Ljava/lang/String;)Ljava/util/List;*9
+
+__unknown_file (
+
+%2dataAccess.DataAccess*7
+
+__unknown_file (
+
+emailjava.lang.String2#getReclamations(Ljava/lang/String;)a
+_
+
+Þ Þ(J
+kexakjava.util.List"__id*2
+
+__unknown_file (
+
+%3java.util.List‡
+„
+
+ß ß(
+%4dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager~|
+
+ß ß(
+
+%5void"dataAccess.DataAccess#close()V*9
+
+__unknown_file (
+
+%4dataAccess.DataAccess2close()"'
+
+à à(
+
+kexakjava.util.List:'
+
+Ü4 Ü(@
+emailjava.lang.StringB(&
+$businessLogic.BLFacadeImplementationH

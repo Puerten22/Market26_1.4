@@ -1,0 +1,82 @@
+
+^businessLogic.BLFacadeImplementation#getFile(Ljava/lang/String;)Ljava/awt/image/BufferedImage;A
+7src\main\java\businessLogic\BLFacadeImplementation.javaR R( "startingBlock*‡
+startingBlockR  R(1†
+ƒ
+Q Q(
+%6"
+__annotate*)
+
+__unknown_file (
+	WebMethod*:
+
+__unknown_file (
+
+fileNamejava.lang.String\
+Z
+R( R(0
+fileNamejava.lang.String"__annotation*"
+
+__unknown_file (
+
+%6*
+1*ä
+1S S(…
+‚
+S S(
+%0dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManagerzx
+S S(
+
+%1void"dataAccess.DataAccess#open()V*9
+
+__unknown_file (
+
+%0dataAccess.DataAccess2open()…
+‚
+T T($
+%2dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager–“
+T T(6"
+%3java.awt.image.BufferedImage"OdataAccess.DataAccess#getFile(Ljava/lang/String;)Ljava/awt/image/BufferedImage;*9
+
+__unknown_file (
+
+%2dataAccess.DataAccess*:
+
+__unknown_file (
+
+fileNamejava.lang.String2getFile(Ljava/lang/String;)x
+v
+T T(7"
+bijava.awt.image.BufferedImage"__id*@
+
+__unknown_file ($
+"
+%3java.awt.image.BufferedImage…
+‚
+U U(
+%4dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager|z
+U U(
+
+%5void"dataAccess.DataAccess#close()V*9
+
+__unknown_file (
+
+%4dataAccess.DataAccess2close()"0
+V V($
+"
+bijava.awt.image.BufferedImage:(
+R! R(0
+fileNamejava.lang.StringB(&
+$businessLogic.BLFacadeImplementationH

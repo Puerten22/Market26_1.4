@@ -1,0 +1,85 @@
+
+BdataAccess.DataAccess#getSales(Ljava/lang/String;)Ljava/util/List;4
+(src\main\java\dataAccess\DataAccess.java¥ ¥("3*è
+2
+¦ ¦(3><
+
+¦" ¦(1
+%1java.util.ArrayList"java.util.ArrayListl
+j
+
+¦ ¦(3
+%2"java.util.ArrayList#<init>()V*7
+
+__unknown_file (
+
+%1java.util.ArrayList")
+
+¦ ¦(4
+
+%1java.util.ArrayList*Ÿ
+3
+¦	 ¦(~
+|
+
+¦	 ¦(
+%0boolean"	__compare*
+
+¦ ¦(
+==*(
+
+¦	 ¦(
+
+descjava.lang.String*
+
+¦ ¦(
+""*
+1
+2*¯
+1
+© ©( Y
+W
+
+© ©( 
+%3"__id*=
+
+__unknown_file (!*
+dataAccess.DataAccess"
+dbM
+K
+
+© ª(q
+query
+TypedQuery"__id*"
+
+__unknown_file (
+""o
+m
+
+« «(%
+%4java.lang.String"__concat*
+
+« «(
+%*(
+
+«! «(%
+
+descjava.lang.Stringm
+k
+
+« «(+
+%5java.lang.String"__concat*&
+
+« «(%
+
+%4java.lang.String*
+
+«( «(+
+%"
+
+¬ ¬("
+"":&
+
+¥ ¥('
+descjava.lang.StringB
+dataAccess.DataAccessH

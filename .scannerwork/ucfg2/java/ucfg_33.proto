@@ -1,0 +1,78 @@
+
+KdataAccess.DataAccess#getDemandsByEmail(Ljava/lang/String;)Ljava/util/List;4
+(src\main\java\dataAccess\DataAccess.javaà à()"3*¤
+2
+ã ã(Y
+W
+
+ã ã(
+%2"__id*=
+
+__unknown_file (!*
+dataAccess.DataAccess"
+db‘Ž
+
+ä ä(!
+%3java.util.List"*domain.Seller#getDemands()Ljava/util/List;*0
+
+__unknown_file (
+
+sdomain.Seller2getDemands()"$
+
+ä ä("
+
+%3java.util.List*Â
+3
+á á(Y
+W
+
+á á(
+%0"__id*=
+
+__unknown_file (!*
+dataAccess.DataAccess"
+dbL
+J
+
+á á(0
+sdomain.Seller"__id*"
+
+__unknown_file (
+""x
+v
+
+â â(
+%1boolean"	__compare*
+
+â â(
+!=*"
+
+â â(
+
+sdomain.Seller*
+
+â â(
+""*
+1
+2*è
+1
+æ æ(&><
+
+æ æ($
+%4java.util.ArrayList"java.util.ArrayListl
+j
+
+æ æ(&
+%5"java.util.ArrayList#<init>()V*7
+
+__unknown_file (
+
+%4java.util.ArrayList")
+
+æ æ('
+
+%4java.util.ArrayList:'
+
+à* à(6
+emailjava.lang.StringB
+dataAccess.DataAccessH

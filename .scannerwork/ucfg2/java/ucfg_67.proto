@@ -1,0 +1,23 @@
+
+#__sonar_lambda_2$gui.SellerSalesGUI/
+%src\main\java\gui\SellerSalesGUI.javaI! I(9"1*•
+1I& I(/p
+n
+I& I(/
+%62javax.swing.JFrame"__id*A
+
+__unknown_file (%*#
+gui.SellerSalesGUI"
+	thisFrameyw
+I& I(9
+%63void"java.awt.Window#dispose()V*7
+
+__unknown_file (
+
+%62javax.swing.JFrame2	dispose()"
+I& I(9
+
+%63void:+
+I! I("
+ejava.awt.event.ActionEventB
+gui.SellerSalesGUI

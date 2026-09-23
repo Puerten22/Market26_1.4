@@ -28,7 +28,7 @@ public class AdminGUI extends JFrame {
 					AdminGUI frame = new AdminGUI();
 					frame.setVisible(true);
 				} catch (Exception e) {
-					e.printStackTrace();
+					JOptionPane.showMessageDialog(null, "Ezin izan da leihoa ireki.");
 				}
 			}
 		});
@@ -153,7 +153,6 @@ public class AdminGUI extends JFrame {
 			}
 		} catch (Exception e) {
 			JOptionPane.showMessageDialog(this, "Error: " + e.getMessage());
-			e.printStackTrace();
 		}
 	}
 }
